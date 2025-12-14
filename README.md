@@ -16,4 +16,4 @@ This script performs the core feature selection and geological interpretation us
 Robust Selection: Executes Recursive Feature Elimination (RFE) across hundreds of Bootstrap iterations. It calculates the Inclusion Probability (IP) for each element to distinguish stable pathfinders from random noise.
 Deep Interpretation: Applies GAM-on-SHAP and interaction analysis to visualize non-linear geochemical thresholds and quantify the uncertainty of the model's geological insights.
 
-This repository contains the source code and data for the research paper: "Robust and Uncertainty-Aware Selection of Geochemical Indicator Elements via PU-Learning and Bootstrap-SHAP: A Case Study in Northwest Sichuan, China." 
+
