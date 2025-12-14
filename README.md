@@ -8,8 +8,7 @@ By integrating Positive-Unlabeled (PU) learning with a Bootstrap-SHAP interpreta
 This script solves the "missing negative label" problem common in greenfield exploration.
 Method: Implements a Spy-based PU Learning strategy.
 Function: It iteratively tests the unlabeled data to filter out potential hidden deposits.
-Output: Identifies a high-confidence set of Reliable Negative (RN) samples to construct a clean, low-bias training dataset (P+RN).
-
+Output: Establishes a rigorously defined (P+RN) baseline by extracting verified non-mineralized instances (RN) from ambiguous data, thereby minimizing sampling bias.
 
 2. Bootstrap-SHAP.py (Robust Selection & Deep Interpretation)
 This script performs the core feature selection and geological interpretation using the cleaned dataset.
